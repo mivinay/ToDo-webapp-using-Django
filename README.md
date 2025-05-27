@@ -45,3 +45,25 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/yourusername/ToDo-webapp-using-Django.git
    cd ToDo-webapp-using-Django
+Create a virtual environment
+python -m venv venv
+
+Activate the environment
+
+On Windows:venv\Scripts\activate
+On macOS/Linux:source venv/bin/activate
+
+Install dependencies
+python manage.py migrate
+
+Run the development server
+python manage.py runserver
+
+Open in browser
+Visit: http://127.0.0.1:8000/
+
+
+
+🧪 Running Tests
+To run unit tests, use:
+python manage.py test
